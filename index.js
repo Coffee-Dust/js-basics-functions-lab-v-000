@@ -11,3 +11,13 @@ function distanceTravelledInFeet(startBlock, endBlock) {
   let blockDiff = startBlock - endBlock
   return Math.abs(blockDiff) * 264
 }
+
+function calculatesFarePrice(start, destination) {
+  let distance = distanceTravelledInFeet(start, destination)
+  
+  if (distance < 400) {
+    return 0
+  } else if (distance > 2500) {
+    
+  } else if ()
+}

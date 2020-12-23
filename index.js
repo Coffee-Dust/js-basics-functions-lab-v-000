@@ -9,5 +9,5 @@ function distanceFromHqInFeet(blocks) {
 
 function distanceTravelledInFeet(startBlock, endBlock) {
   let blockDiff = startBlock - endBlock
-  return (startBlock - endBlock) * 264
+  return Math.abs(blockDiff) * 264
 }
